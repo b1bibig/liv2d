@@ -1,0 +1,13 @@
+{
+  "name": "liv2d",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Live2D-style 2D mesh rigging runtime for the web (WebGL2, zero dependencies)",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "gen:placeholder": "node tools/gen-placeholder.mjs",
+    "snapshot": "node tools/snapshot.mjs"
+  }
+}
